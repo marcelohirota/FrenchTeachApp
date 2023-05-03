@@ -27,6 +27,7 @@
         android:backgroundTint="@color/yellow"
         android:tag="yellow"
         android:text="Yellow"
+        android:onClick="SayColour"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -39,6 +40,7 @@
         android:backgroundTint="@color/red"
         android:tag="red"
         android:text="Red"
+        android:onClick="SayColour"
         app:layout_constraintEnd_toEndOf="@+id/yellowBtn"
         app:layout_constraintTop_toBottomOf="@+id/yellowBtn" />
 
@@ -50,6 +52,7 @@
         android:backgroundTint="@color/green"
         android:tag="green"
         android:text="Green"
+        android:onClick="SayColour"
         app:layout_constraintStart_toStartOf="@+id/redBtn"
         app:layout_constraintTop_toBottomOf="@+id/redBtn" />
 
@@ -61,6 +64,7 @@
         android:backgroundTint="@color/purple"
         android:tag="purple"
         android:text="Purple"
+        android:onClick="SayColour"
         app:layout_constraintStart_toStartOf="@+id/greenBtn"
         app:layout_constraintTop_toBottomOf="@+id/greenBtn" />
 
@@ -72,6 +76,7 @@
         android:backgroundTint="@color/black"
         android:tag="black"
         android:text="Black"
+        android:onClick="SayColour"
         app:layout_constraintEnd_toEndOf="@+id/purpleBtn"
         app:layout_constraintTop_toBottomOf="@+id/purpleBtn" />
 
